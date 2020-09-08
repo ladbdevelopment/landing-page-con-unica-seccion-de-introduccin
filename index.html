@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+   <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-
+    <link rel="icon" type="image/png"  sizes="32x32" href="./images/favicon-32x32.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"/>
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
-
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
+    <header>
+      <nav>
+        <figure class="logo">
+          <img src="./images/logo.svg" alt="Logo de Huddle">
+        </figure>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-article1">
+          <figure class="hero-article1__imagen_contenido"> <!--"Contenedor de mi imagen" -->
+            <img src="./images/illustration-mockups.svg" alt="imagen de mockups">
+          </figure>
+        </div>
+        <div class="hero-article2">
+          <h1>Build The Community Your Fans Will Love</h1>
+          <p>Huddle re-imagines the way we build
+            communities. You have a voice, but so does your audience. Create connections
+            with your users as you engage in genuine discussion.</p>
+            <button class="hero-article2__register">Register</button>
+       </div>
+      </section>
+    </main>
   </body>
+  <footer>
+    <section class="social">
+      <div class="social__facebook"></div>
+      <div class="social__twitter"></div>
+      <div class="social__instagram"></div>
+    </section>
+  </footer>
 </html>

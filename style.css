@@ -1,0 +1,83 @@
+:root{
+--color-primary: hsl(257, 40%, 49%);
+--color-secundary:hsl(228, 45%, 44%);
+--font-size-main: 1.6rem
+} 
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+}
+header{
+  display: inline-block ;
+}
+header .logo{
+  padding-left: 4.0rem;
+  padding-top: 3.0rem;
+}
+body{  
+  width: 100vw;
+  height: 50vh;
+  background-color: var(--color-primary);
+  background-image: url("./images/bg-desktop.svg");
+  display: inline-block;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .hero{
+  padding: 4.0rem;
+  display: inherit;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+body .hero .hero-article1{
+  margin-left: 2rem;
+  padding-left: 2rem;
+  border: 2px solid red ;
+}
+body .hero .hero-article2{
+  margin-left: 2rem;
+  padding-left: 2rem;
+  border: 2px solid red ;
+}
+body .hero .hero-article2 h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem; 
+  /* padding-top: 4rem; */
+  padding-bottom: 2rem;
+}
+
+body .hero .hero-article2 p{
+  font-size: var(--font-size-main);
+  padding-right: 5.0rem;
+}
+
+body .hero .hero-article2 .hero-article2__register{
+  font-size: var(--font-size-main);
+  font-weight: bold;
+  margin-top: 2rem;
+  display: block;
+  width: 20rem;
+  height: 5rem;
+  border-radius: 3rem;
+  background-color: white;
+  border-style:none;  
+}
+
+/* <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
+<style>
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+</style> */
