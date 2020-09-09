@@ -1,4 +1,4 @@
-:root{
+ :root{
 --color-primary: hsl(257, 40%, 49%);
 --color-secundary:hsl(228, 45%, 44%);
 --font-size-main: 1.6rem
@@ -12,20 +12,113 @@
 html{
   font-size: 62.5%;
 }
-header{
-  display: inline-block ;
-}
-header .logo{
-  padding-left: 4.0rem;
-  padding-top: 3.0rem;
-}
 body{  
+
   width: 100vw;
   height: 50vh;
   background-color: var(--color-primary);
-  background-image: url("./images/bg-desktop.svg");
-  display: inline-block;
+  background-image: url("./images/bg-mobile.svg");
+  background-repeat: no-repeat;
 }
+
+.container {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.logo{
+  margin-left: 5%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.logo img{
+  width: 50%;
+  height: 5rem;
+}
+
+.hero__container_image{
+  width: 100%;
+  height: 25rem;
+  justify-content: center;
+}
+
+.hero__container_image img{
+  margin-top: 1%;
+  height: 80%;
+  width: 100%;
+}
+.hero-article div{
+  display: flex;
+  justify-content: center;
+  border: 2px red solid;
+}
+
+.hero-article{
+  width: 100%;
+  min-width: 15rem;
+  height: 25rem;
+  color: aliceblue;
+  display: inline-block;
+  text-align: center;
+}
+
+.hero-article h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem; 
+}
+
+.hero-article p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--font-size-main);
+}
+
+.hero-article__register {
+  font-size: var(--font-size-main);
+  font-weight: bold;
+  margin-top: 2rem;
+  display: inherit;
+  width: 20rem;
+  height: 4.5rem;
+  border-radius: 5.5rem;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgb(7, 7, 7, 0.5);
+  border-style:none;  
+  justify-content: inherit;
+} 
+
+.hero-article__register:hover{
+  background-color: var(--color-primary);
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+  width: 100%; 
+}
+.social a{
+  width: 5rem;
+  height: 5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 4rem 4rem;
+}
+.social .social__facebook{
+  background-image: url('./images/facebook.svg');
+}
+.social .social__twitter{
+  background-image: url('./images/twitter.svg');
+}
+.social .social__instagram{
+  background-image: url('./images/instagram.svg');
+} 
+
+
+/*
+
+
 main{
   display: flex;
   flex-wrap: wrap;
@@ -50,7 +143,7 @@ body .hero .hero-article2{
 body .hero .hero-article2 h1{
   font-family: 'Poppins', sans-serif;
   font-size: 4rem; 
-  /* padding-top: 4rem; */
+  /* padding-top: 4rem; 
   padding-bottom: 2rem;
 }
 
@@ -69,15 +162,5 @@ body .hero .hero-article2 .hero-article2__register{
   border-radius: 3rem;
   background-color: white;
   border-style:none;  
-}
+} */
 
-/* <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-<style>
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-</style> */

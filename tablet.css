@@ -1,0 +1,47 @@
+@media (min-width: 600px){
+  
+  .logo{
+    margin-left: 3%;
+    display: flex;
+    justify-content: flex-start;
+    width: 30rem;
+  }
+  
+  body{
+    background-image: url("./images/bg-desktop.svg");
+  }
+
+  .container{
+    margin-left: 3%;
+    margin-right: 3%;
+    max-width: 80rem; 
+    justify-content: center;
+  }
+
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    height: 45rem;
+  }
+
+  .hero__container_image{
+    width: 70%;
+    height: 100%;
+  }
+  .hero-article{
+    width: 30%;
+    height: 100%;
+    text-align: left;
+  }
+  .hero-article p, h1{ 
+    margin: 2rem 0 ;
+  }
+  .hero__container_image img{
+    width: 85%;
+  }
+  .social{
+    justify-content: flex-end;
+    max-width: 80rem; 
+    margin-left: -3%;
+  }
+}
