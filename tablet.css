@@ -15,18 +15,19 @@
     margin-left: 3%;
     margin-right: 3%;
     max-width: 80rem; 
+    height: 80wh; 
     justify-content: center;
   }
 
   .hero {
     display: flex;
     flex-wrap: wrap;
-    height: 45rem;
+    height: 40rem;
   }
 
   .hero__container_image{
     width: 70%;
-    height: 100%;
+    height: 80%;
   }
   .hero-article{
     width: 30%;
@@ -39,9 +40,14 @@
   .hero__container_image img{
     width: 85%;
   }
+
+.hero-article__register {
+  width: 100%;
+}
   .social{
     justify-content: flex-end;
     max-width: 80rem; 
     margin-left: -3%;
   }
 }
+
