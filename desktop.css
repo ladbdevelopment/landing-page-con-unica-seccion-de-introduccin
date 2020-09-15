@@ -20,6 +20,10 @@
     align-items: center;
     margin-top: 3rem;
   }
+  .hero__container_image
+  {
+    height: 90%;
+  }
   
   footer{
     width: 100vw;
